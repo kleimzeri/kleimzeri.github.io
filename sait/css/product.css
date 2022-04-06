@@ -6,6 +6,18 @@
     font-style: normal; 
     font-weight: normal; 
 } 
+.a1{
+    color: black;
+}
+.a1:hover{
+    color: black;
+}
+body{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
 /*header*/
 .header {
     margin-top: 0px;
