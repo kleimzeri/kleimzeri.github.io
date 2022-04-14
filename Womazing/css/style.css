@@ -17,11 +17,21 @@ a:hover{
 .header {
     position: fixed;
     display: flex ;
+    text-align: center;
     margin-top: -150px;
-    margin-left: 400px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 1110px;
+    width: 100%;
+    height: 28px;
+    z-index: 99999999999;
+}
+.inner_header{
+    display: flex ;
+    justify-content: space-between;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 1220px;
     height: 28px;
     background: rgba(255, 255, 255, 0.537);
     border: 0px solid rgb(255, 255, 255);
@@ -74,7 +84,6 @@ a:hover{
     padding-top: 5px;
     transition: all 0.5s ease;
 }
-
 /*/Кнопки*/
 /*телефон и корзина*/
 .phone {
@@ -107,14 +116,14 @@ a:hover{
     margin-left: auto;
     margin-right: auto;
     width: 1840px;
-    height: 3567px;
+    height: 3000px;
 }
 .wapper1{
     margin-top: 190px;
     margin-left: auto;
     margin-right: auto;
     width: 1219px;
-    height: 3567px;
+    height: 3000px;
 }
 .bg_img{
     margin-top: -192px;
@@ -497,7 +506,6 @@ a:hover{
 /*3_box*/
 /*slaider*/
 /* Слайдер */
-/* Слайдер */
 .slider_12 {
     width: 750px;
 }
@@ -600,3 +608,111 @@ a:hover{
 }
 /*slaider*/
 /*/3_box*/
+/*footer*/
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(241, 234, 220);
+    width: 100%;
+    height: 360px;
+
+}
+.inner_footer {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 80px;
+
+    width: 1230px;
+    height: 220px;
+}
+.footer_logo{
+
+    height: 30px;
+}
+.footer_img_logo {
+    display: inline-block;
+    height: 30px;
+}
+.footer_text_logo {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: -5px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.footer .phone{
+    display: inline;
+    text-align: right;
+    width: 200px;
+    height: 220px;
+}
+.footer .phone_tel{
+    display: inline;
+    width: 130px;
+}
+.email{
+    
+    width: 100px;
+    margin-bottom: 50px;
+}
+.soc_seti{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: right;
+}
+
+
+.l1 {
+    display:contents;
+}
+.l2 {
+    display:contents;
+}
+.l3 {
+    display:contents;
+}
+
+.katalog{
+    text-align: left;
+    width: 60px;
+    margin: 0 auto;
+    font-size: 13px;
+    padding-top: 30px;
+}
+.footer .button {
+    display: flex;
+    
+}
+.footer .button1 {
+    width: 120px;
+    padding-left: 0px;
+    text-align: center;
+    height: 25px;
+}
+.footer .button2 {
+    width: 120px;
+    padding-left: 0px;
+    text-align: center;
+    height: 195px;
+}
+.footer .button3 {
+    width: 120px;
+    padding-left: 0px;
+    text-align: center;
+    height: 25px;
+}
+.footer .button4 {
+    width: 120px;
+    padding-left: 0px;
+    text-align: center;
+    height: 25px;
+}
+
+/*footer*/
