@@ -237,7 +237,7 @@ a:hover{
     display: flex;
     width: 310px;
     height: 60px;
-    border: 1px solid #6E9C9F;
+    border: 0px solid #6E9C9F;
     margin-left: 90px;
     margin-top: 50px;
 }
@@ -605,6 +605,7 @@ a:hover{
 }
 .s_5555:hover{
     color: #4c6e70;
+    text-decoration:underline;
 }
 /*slaider*/
 /*/3_box*/
