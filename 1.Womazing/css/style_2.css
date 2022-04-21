@@ -179,6 +179,7 @@ a:hover{
     border: 1px solid #000;
     display: flex;
     height: 77px;
+    transition: all 0.5s ease;
 }
 .knopka2:hover{
     transition: all 0.5s ease;
