@@ -181,6 +181,7 @@ a:hover{
     height: 77px;
 }
 .knopka2:hover{
+    transition: all 0.5s ease;
     background: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
