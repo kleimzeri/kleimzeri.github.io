@@ -1,0 +1,687 @@
+
+@media (max-width: 1440px) {
+    .osnov_box{
+        margin-top: 20px;
+        display: flex;
+        width: 100%;
+        max-width: 900px;
+        min-width: 700px;
+        margin: 20px auto;
+        height: 175px;
+        left: 9px;
+        top: 7px;
+        background: #2E2E2E;
+        border: 2px solid #00F0FF;
+        box-sizing: border-box;
+        box-shadow: inset 0px 0px 10px 10px #004A4A;
+        border-radius: 123.5px;
+    }
+    .header_box_1 {
+        display: flex;
+        margin-top: -10px;
+        margin-left: -10px;
+        width: 100%;
+        height: 90px;
+        left: 0px;
+        top: 0px;
+        background: #2E2E2E;
+        border: 2px solid #00FFF0;
+        box-sizing: border-box;
+        box-shadow: inset 0px 0px 10px 5px rgba(1, 240, 255, 0.25);
+        border-radius: 1000px 550px 550px 100px;
+    }
+    .header_text_logo {
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+        font-family: 'Tapestry', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 78px;
+        letter-spacing: 0.10em;
+        color: #00FFF0;
+    } 
+    .header_img_logo {
+        display: flex;
+        align-items: center;
+        margin: 5px 5px 5px 25px ;
+        width: 80px;
+        height: 80px;
+        background-image: url(../img/logo_4\(sp\).png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .header_box_2 {
+        display: flex;
+        margin-top: -10px;
+        margin-right: -10px;
+        width: 100%;
+        height: 90px;
+        left: 0px;
+        top: 0px;
+        background: #2E2E2E;
+        border: 2px solid #00FFF0;
+        box-sizing: border-box;
+        box-shadow: inset 0px 0px 10px 5px rgba(1, 240, 255, 0.25);
+        border-radius: 550px 1000px 100px 550px;
+    }
+
+    .button_header{
+        margin-right: 50px ;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .bh_1 {
+        display: inline-block;
+        align-items: center;
+        margin: 5px;
+        width: 45px;
+        height: 45px;
+        background-image: url(../img/icon/home.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        transition: all 0.5s ease;
+    }
+    .bh_2 {
+        display: inline-block;
+        align-items: center;
+        width: 45px;
+        height: 45px;
+        background-image: url(../img/icon/vladelec.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .bh_3 {
+        display: inline-block;
+        align-items: center;
+        width: 45px;
+        height: 45px;
+        background-image: url(../img/icon/portfolio.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .bh_4 {
+        display: inline-block;
+        align-items: center;
+        width: 45px;
+        height: 45px;
+        background-image: url(../img/icon/kontakt.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .bh_5 {
+        display: inline-block;
+        align-items: center;
+        width: 45px;
+        height: 45px;
+        background-image: url(../img/icon/basket.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .name_page_header {
+        position: absolute;
+        top: 120px;
+        width: max-content;
+        height: 50px;
+        display:flex;
+    }
+    .text_page {
+        display: flex;
+        align-items: center;
+        font-family: 'Tapestry', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 78px;
+        letter-spacing: 0.15em;
+        color: #00F0FF;
+    }
+    .box_1 {
+        position: relative;
+        overflow: hidden;
+        margin: 0 auto;
+        background: rgba(0, 0, 0, 0.39);
+        width: 850px;
+        height: 300px;
+        border-radius: 500px;
+        border: 2px solid #00F0FF;
+    }
+    .img_1 {
+        background-image: url(../img/logo_1.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 550px;
+        height: 460px;
+    
+    }
+    .img_2 {
+        background-image: url(../img/logo_2.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 600px;
+        height: 460px;
+    
+    }
+    /* Стрелка влево */
+.slick-arrow.slick-prev{
+    background-image: url(../img/icon/strela.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transform: scale(-1, 1);
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 33%;
+    right: 85%;
+    z-index: 11;
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next{
+    background-image: url(../img/icon/strela.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 33%;
+    left: 85%;
+    z-index: 11;
+}
+.slick-dots{
+    position: absolute;
+    display: flex;
+    width: 770px;
+    top: 85%;
+    align-items: center;
+    justify-content: center;
+    z-index: 15;
+}
+}
+@media (max-width: 814px){
+    .osnov_box{
+        margin-top: 20px;
+        display: flex;
+        width: 100%;
+        max-width: 700px;
+        min-width: 500px;
+        margin: 20px auto;
+        height: 175px;
+        left: 9px;
+        top: 7px;
+        background: #2E2E2E;
+        border: 2px solid #00F0FF;
+        box-sizing: border-box;
+        box-shadow: inset 0px 0px 10px 10px #004A4A;
+        border-radius: 123.5px;
+    }
+    .button_header{
+        margin-right: 20px ;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .header_box_1 {
+        display: flex;
+        margin-top: -10px;
+        margin-left: -10px;
+        width: 100%;
+        height: 90px;
+        left: 0px;
+        top: 0px;
+        background: #2E2E2E;
+        border: 2px solid #00FFF0;
+        box-sizing: border-box;
+        box-shadow: inset 0px 0px 10px 5px rgba(1, 240, 255, 0.25);
+        border-radius: 1000px 550px 550px 100px ;
+    }
+    .header_text_logo {
+        display: flex;
+        align-items: center;
+        margin-left: 40px;
+        font-family: 'Tapestry', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 78px;
+        letter-spacing: 0.10em;
+        color: #00FFF0;
+    }
+    .header_img_logo {
+        margin: 5px 5px 5px 10px ;
+        width: 75px;
+        height: 75px;
+        background-image: url(../img/logo_4\(sp\).png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .box_1 {
+        position: relative;
+        overflow: hidden;
+        margin: 0 auto;
+        background: rgba(0, 0, 0, 0.39);
+        width: 700px;
+        height: 250px;
+        border-radius: 500px;
+        border: 2px solid #00F0FF;
+    }
+    .img_1 {
+        background-image: url(../img/logo_1.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 480px;
+        height: 460px;
+    
+    }
+    .img_2 {
+        background-image: url(../img/logo_2.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 480px;
+        height: 260px;
+    
+    }
+        /* Стрелка влево */
+.slick-arrow.slick-prev{
+    background-image: url(../img/icon/strela.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transform: scale(-1, 1);
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 33%;
+    right: 85%;
+    z-index: 11;
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next{
+    background-image: url(../img/icon/strela.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 33%;
+    left: 85%;
+    z-index: 11;
+}
+.slick-dots{
+    position: absolute;
+    display: flex;
+    width: 700px;
+    top: 83%;
+    align-items: center;
+    justify-content: center;
+    z-index: 15;
+}
+
+}
+@media (max-width: 710px){
+    .button_header {
+        margin-right: 10px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 1000px;
+    }
+    .osnov_box{
+        position: absolute;
+        margin-top: 20px;
+        display: inline;
+        width: 1000px;
+        opacity: 1;
+        margin: 0 auto;
+        height: 150px;
+        left: 9px;
+        top: 30px;
+        background: #2e2e2e00;
+        border: 2px solid #00eeff00;
+        box-sizing: border-box;
+        box-shadow: inset 0px 0px 10px 10px #004a4a00;
+        border-radius: 123.5px;
+    }
+    .header_box_2 {
+        display: flex;
+        margin-top: -2px;
+        margin-right: -10px;
+        width: 675px;
+        opacity: 1;
+        
+        height: 60px;
+        left: 0px;
+        top: 0px;
+        background: #2E2E2E;
+        border: 2px solid #00FFF0;
+        box-sizing: border-box;
+        box-shadow: inset 0px 0px 10px 5px rgba(1, 240, 255, 0.25);
+        border-radius: 100px 100px 1000px 1000px;
+    }
+    .header_box_1 {
+        display: flex;
+        margin-top: -10px;
+        margin-left: 0px;
+        width:675px;
+        height: 70px;
+        left: 0px;
+        top: 0px;
+        background: #2E2E2E;
+        border: 2px solid #00FFF0;
+        box-sizing: border-box;
+        box-shadow: inset 0px 0px 10px 5px rgba(1, 240, 255, 0.25);
+        border-radius: 1000px 1000px 100px 100px;
+    }
+    .name_page_header{
+        opacity: 0;
+    }
+    .header_img_logo {
+        display: flex;
+        align-items: center;
+        margin: 5px 5px 5px 5px ;
+        width: 60px;
+        height: 60px;
+        background-image: url(../img/logo_4\(sp\).png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .header_text_logo {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        font-family: 'Tapestry', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 78px;
+        letter-spacing: 0.10em;
+        color: #00FFF0;
+    } 
+    .slick-dots{
+        position: absolute;
+        display: flex;
+        width: 620px;
+        top: 85%;
+        align-items: center;
+        justify-content: center;
+        z-index: 15;
+    }
+
+}
+@media (max-width: 475px){
+    .button_header {
+        margin-right: 10px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 1000px;
+    }
+    .osnov_box{
+        position: absolute;
+        margin-top: 20px;
+        display: inline;
+        width: 1000px;
+        opacity: 1;
+        margin: 0 auto;
+        height: 150px;
+        left: 9px;
+        top: 30px;
+        background: #2e2e2e00;
+        border: 2px solid #00eeff00;
+        box-sizing: border-box;
+        box-shadow: inset 0px 0px 10px 10px #004a4a00;
+        border-radius: 123.5px;
+    }
+    .header_box_2 {
+        display: flex;
+        margin-top: -2px;
+        margin-right: -10px;
+        width: 675px;
+        opacity: 1;
+        
+        height: 60px;
+        left: 0px;
+        top: 0px;
+        background: #2E2E2E;
+        border: 2px solid #00FFF0;
+        box-sizing: border-box;
+        box-shadow: inset 0px 0px 10px 5px rgba(1, 240, 255, 0.25);
+        border-radius: 100px 100px 1000px 1000px;
+    }
+    .header_box_1 {
+        display: flex;
+        margin-top: -10px;
+        margin-left: 0px;
+        width:675px;
+        height: 70px;
+        left: 0px;
+        top: 0px;
+        background: #2E2E2E;
+        border: 2px solid #00FFF0;
+        box-sizing: border-box;
+        box-shadow: inset 0px 0px 10px 5px rgba(1, 240, 255, 0.25);
+        border-radius: 1000px 1000px 100px 100px;
+    }
+    .name_page_header{
+        opacity: 0;
+    }
+    .header_img_logo {
+        display: flex;
+        align-items: center;
+        margin: 5px 5px 5px 5px ;
+        width: 60px;
+        height: 60px;
+        background-image: url(../img/logo_4\(sp\).png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .header_text_logo {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        font-family: 'Tapestry', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 78px;
+        letter-spacing: 0.10em;
+        color: #00FFF0;
+    } 
+    .slick-dots{
+        position: absolute;
+        display: flex;
+        width: 620px;
+        top: 85%;
+        align-items: center;
+        justify-content: center;
+        z-index: 15;
+    }
+}
+@media (max-width: 375px){
+    .button_header {
+        margin-right: 10px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 1000px;
+    }
+    .osnov_box{
+        position: absolute;
+        margin-top: 20px;
+        display: inline;
+        width: 1000px;
+        opacity: 1;
+        margin: 0 auto;
+        height: 150px;
+        left: 9px;
+        top: 30px;
+        background: #2e2e2e00;
+        border: 2px solid #00eeff00;
+        box-sizing: border-box;
+        box-shadow: inset 0px 0px 10px 10px #004a4a00;
+        border-radius: 123.5px;
+    }
+    .header_box_2 {
+        display: flex;
+        margin-top: -2px;
+        margin-right: -10px;
+        width: 675px;
+        opacity: 1;
+        
+        height: 60px;
+        left: 0px;
+        top: 0px;
+        background: #2E2E2E;
+        border: 2px solid #00FFF0;
+        box-sizing: border-box;
+        box-shadow: inset 0px 0px 10px 5px rgba(1, 240, 255, 0.25);
+        border-radius: 100px 100px 1000px 1000px;
+    }
+    .header_box_1 {
+        display: flex;
+        margin-top: -10px;
+        margin-left: 0px;
+        width:675px;
+        height: 70px;
+        left: 0px;
+        top: 0px;
+        background: #2E2E2E;
+        border: 2px solid #00FFF0;
+        box-sizing: border-box;
+        box-shadow: inset 0px 0px 10px 5px rgba(1, 240, 255, 0.25);
+        border-radius: 1000px 1000px 100px 100px;
+    }
+    .name_page_header{
+        opacity: 0;
+    }
+    .header_img_logo {
+        display: flex;
+        align-items: center;
+        margin: 5px 5px 5px 5px ;
+        width: 60px;
+        height: 60px;
+        background-image: url(../img/logo_4\(sp\).png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .header_text_logo {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        font-family: 'Tapestry', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 78px;
+        letter-spacing: 0.10em;
+        color: #00FFF0;
+    } 
+    .slick-dots{
+        position: absolute;
+        display: flex;
+        width: 620px;
+        top: 85%;
+        align-items: center;
+        justify-content: center;
+        z-index: 15;
+    }
+}
+@media (max-width: 320px){
+    .button_header {
+        margin-right: 10px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 1000px;
+    }
+    .osnov_box{
+        position: absolute;
+        margin-top: 20px;
+        display: inline;
+        width: 1000px;
+        opacity: 1;
+        margin: 0 auto;
+        height: 150px;
+        left: 9px;
+        top: 30px;
+        background: #2e2e2e00;
+        border: 2px solid #00eeff00;
+        box-sizing: border-box;
+        box-shadow: inset 0px 0px 10px 10px #004a4a00;
+        border-radius: 123.5px;
+    }
+    .header_box_2 {
+        display: flex;
+        margin-top: -2px;
+        margin-right: -10px;
+        width: 675px;
+        opacity: 1;
+        
+        height: 60px;
+        left: 0px;
+        top: 0px;
+        background: #2E2E2E;
+        border: 2px solid #00FFF0;
+        box-sizing: border-box;
+        box-shadow: inset 0px 0px 10px 5px rgba(1, 240, 255, 0.25);
+        border-radius: 100px 100px 1000px 1000px;
+    }
+    .header_box_1 {
+        display: flex;
+        margin-top: -10px;
+        margin-left: 0px;
+        width:675px;
+        height: 70px;
+        left: 0px;
+        top: 0px;
+        background: #2E2E2E;
+        border: 2px solid #00FFF0;
+        box-sizing: border-box;
+        box-shadow: inset 0px 0px 10px 5px rgba(1, 240, 255, 0.25);
+        border-radius: 1000px 1000px 100px 100px;
+    }
+    .name_page_header{
+        opacity: 0;
+    }
+    .header_img_logo {
+        display: flex;
+        align-items: center;
+        margin: 5px 5px 5px 5px ;
+        width: 60px;
+        height: 60px;
+        background-image: url(../img/logo_4\(sp\).png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .header_text_logo {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        font-family: 'Tapestry', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 78px;
+        letter-spacing: 0.10em;
+        color: #00FFF0;
+    } 
+    .slick-dots{
+        position: absolute;
+        display: flex;
+        width: 620px;
+        top: 85%;
+        align-items: center;
+        justify-content: center;
+        z-index: 15;
+    }
+}
