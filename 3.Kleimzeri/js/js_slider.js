@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $('.slider').slick({
+       dots:true,
+       speed:1200,
+       centerMode:true,
+       autoplay:true,
+       waitForAnimate:true,
+       variableWigth:true,
+    });
+ });
