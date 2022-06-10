@@ -1,0 +1,15 @@
+.team {
+    & a {
+            text-decoration: none;
+            color: $primary-color;
+            &:hover {
+                color: $secondary-color;
+                border-bottom: 1px solid $secondary-color !important;
+                transition: 0.5s ease;
+            }
+        }
+
+    & .swiper-pagination {
+        color: $primary-color !important;
+    }
+}

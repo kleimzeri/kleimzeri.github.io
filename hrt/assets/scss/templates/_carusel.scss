@@ -1,0 +1,90 @@
+.carusel {
+    padding-bottom: 50px;
+    & .row {
+       & .text {
+           display: flex;
+           justify-content: center;
+           flex-direction: column;
+        & .h1 {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            font-size: 55px;
+        }
+        & .h4 {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            text-align: right;
+            margin: 50px 0;
+            margin-right: 180px;
+
+        }
+        & .button {
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 180px;
+            & span {
+                color: $primary-color;
+                @include adaptive-value("font-size", 27, 17, 0);
+            }
+            & .btn {
+                background: $primary-color;
+                color: $white;
+                @include adaptive-value("font-size", 17, 12, 0);
+                padding: 15px 30px;
+                white-space: nowrap;
+                &:hover {
+                    background: $secondary-color;
+                    transition: 0.5s ease;
+                }
+            }
+        }
+        }
+        & .image {
+            display: flex;
+            justify-content: flex-end;
+            position: relative;
+            &::after {
+                content: "";
+                position: absolute;
+                top: -30px;
+                right: -300px;
+                background: $bg-color;
+                width: 826px;
+                height: 735px;
+                z-index: -1;
+            }
+            & .photo {
+                position: relative;
+                border-radius: calc(0.25rem - 1px);
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 405px;
+                    left: -100px;
+                    background-image: url(/assets/images/carusel/02.png);
+                    border-radius: calc(0.25rem - 1px);
+                    width: 190px;
+                    height: 300px;
+                    z-index: 1;
+                }
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 120px;
+                    right: -100px;
+                    background-image: url(/assets/images/carusel/03.png);
+                    border-radius: calc(0.25rem - 1px);
+                    width: 190px;
+                    height: 197px;
+                    z-index: 1;
+                    
+                   
+                }
+            }
+
+        }
+
+    }
+}

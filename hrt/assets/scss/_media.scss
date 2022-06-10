@@ -1,0 +1,248 @@
+// * media styles
+@media (max-width: 1199px) {
+    
+}
+@media (max-width: 991px) {
+    .team {
+        & .row :nth-child(2) {
+            text-align: center;
+            & .h6 {
+                width: 100%;
+                padding: 0 10px;
+                br {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .footer {
+        & .row {
+            display:flex;
+            & .footer__logo {
+                order: 1;
+            }
+            & .footer__list {
+                margin-top: 15px!important;
+                order: 3;
+            }
+            & .footer__link {
+                order: 2;
+            }
+        }
+    }
+
+    .score .button-category {
+        margin-bottom: 15px !important;
+        & .btn {
+            border: 1px solid #000;
+            font-size: 15px;
+            width: 100px;
+            height: 40px;
+            margin: 0 10px;
+            &.active {
+                background: #000;
+                color: white;
+            }
+        }
+    }
+    .about {
+        & img > {
+            min-height: 100%;
+            max-height: 100%;
+        }
+        & .text {
+            min-height: 100%;
+            max-height: 100%;
+            & .h6 {
+                font-size: 0.90rem !important;
+            }
+        }
+    }
+    
+    .carusel {
+        & .text {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            & .h1 {
+                display: flex !important;
+                justify-content: center !important;
+                text-align: center;
+                
+            }
+            & .h4 {
+                display: flex !important;
+                justify-content: center !important;
+                text-align: center !important;
+                margin-right: 0 !important;
+            }
+            & .button {
+                display: flex;
+                justify-content: center !important;
+                margin-right: 20px !important;
+            }
+        }
+        & .image {
+            display: flex;
+            justify-content: center !important;
+            position: relative;
+            margin-top: 20px;
+            &::after {
+                display: none;
+            }
+            & .photo {
+                &::before {
+                    display: none;
+                }
+                &::after {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .main {
+        .collection {
+            & .row :nth-child(1), :nth-child(2), :nth-child(3) {
+                display: flex;
+                justify-content: center;
+                & .card {
+                    
+                    width: 75% !important;
+                }
+            }
+            
+        }
+        
+        .important {
+            & .row :nth-child(1), :nth-child(2), :nth-child(3) {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+                & .h4 {
+                    margin: 10px 0 !important;
+                }
+                & .h6 {
+                    width: 80% !important;
+                    text-align: center;
+                }
+                br {
+                    display: none;
+                }
+            }
+
+        }
+
+        .team {
+            & .row :nth-child(3) {
+                & .h6 {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    text-align: center;
+                    padding: 0 10px;
+                    br {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .score {
+        & .btn-container {
+           display: block;
+            & .button-category {
+                margin-bottom: 15px !important;
+                & .btn {
+                    border: 1px solid #000;
+                    font-size: 12px;
+                    width: 100px;
+                    height: 40px;
+                    margin: 0 5px;
+                    &.active {
+                        background: #000;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    .about {
+        & .row {
+            & .links {
+                display: flex !important;
+                flex-direction: column;
+            }
+            
+        }
+    }
+    
+}
+@media (max-width: 575px) {
+    .footer {
+        & .row {
+            display:flex;
+            & .footer__logo {
+                order: 1;
+                width: 50%;
+            }
+            & .footer__list {
+                margin-top: 15px!important;
+                order: 3;
+                & a {
+                    padding: 0 10px;
+                }
+            }
+            & .footer__link {
+                order: 2;
+                width: 50%;
+            }
+        }
+    }
+}
+@media (max-width: 410px) {
+    .footer {
+        & .row {
+            display:flex;
+            & .footer__logo {
+                order: 1;
+                width: 100%;
+            }
+            & .footer__list {
+                display: none;
+                margin-top: 15px!important;
+                order: 3;
+                & a {
+                    padding: 0 10px;
+                }
+            }
+            & .footer__link {
+                display: flex;
+                align-items: flex-start;
+                order: 2;
+                width: 100%;
+            }
+        }
+    }
+    .score .button-category {
+        margin-bottom: 15px !important;
+        & .btn {
+            border: 1px solid #000;
+            font-size: 8px;
+            width: 50px;
+            height: 30px;
+            margin: 0 5px;
+            &.active {
+                background: #000;
+                color: white;
+            }
+        }
+    }
+}
+@media (max-width: 320px) {
+    
+}
