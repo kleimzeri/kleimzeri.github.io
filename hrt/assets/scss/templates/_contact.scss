@@ -1,0 +1,73 @@
+.about {
+    & .row {
+        & .h5 {
+            @include adaptive-value("font-size", 15, 12, 0);
+            white-space: nowrap;
+        }
+        & .name-link {
+            & a {
+                text-decoration: none;
+                color: black;
+                &:hover {
+                    color: $primary-color;
+                    transition: 0.5s ease;
+                }
+            }
+        }
+        
+        & .btn {
+            margin-top: 30px;
+            background: $primary-color;
+            color: $white;
+            @include adaptive-value("font-size", 17, 12, 0);
+            padding: 15px 50px;
+            white-space: nowrap;
+            &:hover {
+                background: $secondary-color;
+                transition: 0.5s ease; 
+                color: $white;
+            }
+        }
+    }
+    .form-control {
+        height: 60px;
+        border: 0px;
+        border-bottom: 1px solid #000;
+        border-radius: 0;
+        box-shadow: none !important;
+    }
+    input {
+        padding: 0;
+        &::placeholder {
+            opacity: 1;
+        }
+        &:focus {
+            &::placeholder {
+                opacity: 0.3;
+            }
+        }
+    }
+    .form-control-text {
+        height: 100px;
+        border: 0;
+        border-bottom: 1px solid #000;
+        box-shadow: none !important;
+    }
+    textarea {
+        &::placeholder {
+            opacity: 1;
+        }
+        &:focus {
+            &::placeholder {
+                opacity: 0.3;
+            }
+        }
+    }
+    #map {
+        height: 500px;
+        /* The height is 400 pixels */
+        width: 100%;
+        /* The width is the width of the web page */
+        margin-bottom: 50px;
+      }
+    }
