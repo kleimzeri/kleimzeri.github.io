@@ -1,0 +1,52 @@
+.about {
+    & .row {
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+        & .text {
+            & .h2 {
+                font-size: 25px;
+                margin-top: 30px;
+            }
+
+            & .h6 {
+                font-size: 17px;
+            }
+        }
+    }
+
+    & img> {
+        min-height: 100%;
+        max-height: 100%;
+    }
+
+    & .text {
+        width: 100%;
+        min-height: 100%;
+        max-height: 100%;
+    }
+
+    & .btn-1 {
+        @include adaptive-value("font-size", 17, 12, 0);
+        padding: 15px 30px;
+        white-space: nowrap;
+        border-radius: 0 !important;
+        position: relative;
+        top: 0;
+    }
+
+    & .btn {
+        box-shadow: 0 5px 0px #3c354a;
+        transition-duration: 0s;
+        background: $primary-color;
+        color: $white;
+        
+        &:hover {
+            background: $secondary-color;
+            transition: 0.1s ease;
+            color: $white;
+            top: 3px;
+            box-shadow: 0 3px 0px #3c354a;
+        }
+    }
+}
