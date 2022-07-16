@@ -1,0 +1,429 @@
+.wrapper {
+    font-family: 'HelveticaNeueCyr';
+    min-height: 100%;
+    height: 3000px;
+}
+
+
+.main {
+
+    
+
+    // <!-- Section dates and resolutions -->
+    & .section-date {
+        margin-top: 44px !important;
+        width: 100%;
+        &__colomn {
+            display: flex;
+            @media (max-width: 991px) {
+                display: block;
+
+            }
+        }
+        &__personal-area {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 20px;
+            color: #1F1F1F;
+            white-space: nowrap;
+        }
+
+
+        // <!-- Resolution filter -->
+        // <!-- Date filter -->
+        & .resolution, .date {
+            display: flex;
+            border: 1px solid #DCDCDC;
+            border-radius: 3px !important;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 13px;
+            color: #1F1F1F;
+            white-space: nowrap !important;
+            border-radius: 3px !important;
+            height: 26px;
+            margin: 0 !important;
+            width: 269px;
+            margin-left: 58px !important;
+            @media (max-width: 991px) {
+                margin-top: 10px !important;
+                margin-left: 0px !important;
+                
+            }
+
+        }
+        & .date {
+            width: 182px;
+            margin-left: 20px !important;
+            @media (max-width: 991px) {
+                margin-top: 10px !important;
+                margin-left: 0px !important;
+                
+            }
+        }
+
+        // <!-- Month filter -->
+        & .month {
+            border-radius: 3px !important;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0 !important;
+            width: 125px;
+            margin-left: 25px !important;
+            @media (max-width: 991px) {
+                margin-top: 10px !important;
+                margin-left: 7px !important;
+                
+            }
+
+            &__arrow-left {
+                border: 1px solid #DCDCDC;
+                border-radius: 3px 0px 0px 3px !important;
+            }
+
+            &__arrow-right {
+                border: 1px solid #DCDCDC;
+                border-radius: 0px 3px 3px 0px !important;
+            }
+
+            & .btn {
+                display: flex;
+                align-items: center;
+                border: 1px solid #DCDCDC;
+                border-radius: 3px !important;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 13px;
+                
+                white-space: nowrap !important;
+                border-radius: 3px !important;
+                height: 26px;
+                margin: 0 !important;
+                & a {
+                    color: #1F1F1F;
+                    padding: 0 !important;
+                }
+            }
+        }
+        
+
+        // <!-- Job filter -->
+        .filter {
+            margin-top: 24px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 16px;
+            color: #1F1F1F !important;
+            margin-bottom: 15px;
+
+            & .active {
+                color: #000000;
+            }
+
+            & a {
+                color: #969696;
+
+                &:hover {
+                    color: rgb(0, 0, 0);
+                    transition: 0.5s ease 0s;
+                }
+            }
+        }
+    }
+
+    //  <!-- Filter and search section -->
+    .section-filter {
+        margin-top: 15px;
+
+        & .border {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 26px;
+            height: 26px;
+            margin-right: 32px;
+        }
+
+
+        // <!-- Filter form -->
+        & .box-filter {
+            margin-right: 32px;
+            &__add {
+                background-color: #277AED;
+                border-radius: 3px;
+            }
+
+            &__compare {
+                margin-right: 0;
+            }
+
+            &__basic {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #1F1F1F;
+                margin: 0 5px;
+            }
+        }
+
+        // <!-- Search form -->
+        .form {
+            display: flex;
+            align-items: center;
+            width: 288px !important;
+            height: 26px;
+            border: 1px solid #DCDCDC;
+            border-radius: 3px;
+            padding-right: 13px;
+            @media (max-width: 1024px) {
+                width: 288px !important;
+            }
+
+            &__search {
+                width: 140px;
+                padding: 0 13px;
+                padding-right: 0px;
+            }
+
+            &__numbers {
+                display: flex;
+                align-items: center;
+                color: #969696;
+                padding: 0;
+
+                & .num-1 {
+                    margin-right: 2px !important;
+                }
+
+                & .num-2 {
+                    margin-left: 2px;
+                    margin-right: 5px;
+                }
+
+                & .arrow-top {
+                    margin-right: 5px;
+                }
+
+                & .arrow-bottom {
+                    margin-right: 13px;
+                }
+
+            }
+            & .submit {
+                background-color: rgba(0, 0, 0, 0) !important;
+                border-left: 1px solid #DCDCDC !important;
+                height: 100%;
+                background: #000;
+                display: flex;
+                align-items: center;
+    
+                &__dots {
+                    margin-left: 15px;
+                    margin-right: 9.5px;
+                }
+            }
+
+
+    }
+
+}
+
+
+
+// <!-- Documentation section -->
+.documentation {
+    &__row {
+        margin-top: 15px !important;
+        & .h4 {
+            font-style: normal;
+            font-weight: 550;
+            font-size: 13px;
+            line-height: 13px;
+            color: #1F1F1F;
+            width: 465px;
+            padding-top: 14px;
+        }
+    }
+
+
+    // <!-- Document file -->
+    &__document {
+        height: 42px;
+        position: relative;
+        z-index: 15;
+        padding-left: 5px;
+
+        &:hover {
+            border: 1px solid #E8E8E8;
+            box-shadow: 0px 4px 13px rgba(151, 151, 151, 0.25);
+            border-radius: 3px;
+        }
+        & .form {
+            &__active {
+                margin: 0 7px;
+            }
+
+            &__document-name {
+                text-decoration: none;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 13px;
+                color: #1F1F1F;
+            }
+
+            &__copy {
+                border: 0.1px solid #dcdcdcbd;
+                box-shadow: 0px 4px 13px rgba(151, 151, 151, 0.25);
+                border-radius: 3px;
+                padding: 6px 7px;
+                margin-right: 80px;
+                margin-left: 24px;
+            }
+        }
+    }
+
+    & .document-line-1 {
+        position: relative;
+        z-index: 5;
+        
+            // Color line
+        .document__spreadsheet-line-1 {
+            width: 116px !important;
+            height: 12px !important;
+            background: rgba(255, 7, 22, 0.48);
+            position: absolute;
+            top: 16px;
+            left: 500px;
+            z-index: 15;
+
+            @media (min-width: 1025px) {
+                width: 214px !important;
+                left: 526px;
+            }
+    }
+
+    }
+
+    & .document-line-2 {
+        position: relative;
+        z-index: 5;
+
+        // Color line
+        .document__spreadsheet-line-2 {
+            width: 190px !important;
+            height: 12px !important;
+            background: rgba(39, 122, 237, 0.63);
+            position: absolute;
+            top: 16px !important;
+            left: 690px;
+            z-index: 5;
+            @media (min-width: 1025px) {
+                width: 355px !important;
+                left: 881px;
+            }
+        }
+    }
+
+    & .document-line-3 {
+        position: relative;
+        z-index: 5;
+
+        // Color line
+        .document__spreadsheet-line-3 {
+            width: 77px !important;
+            height: 12px !important;
+            background: rgba(251, 184, 106, 0.6);
+            position: absolute;
+            top: 16px;
+            left: 500px;
+            z-index: 5;
+            @media (min-width: 1025px) {
+                width: 142px !important;
+                left: 525px;
+            }
+        }
+
+    }
+
+    & .document-line-4 {
+        position: relative;
+        z-index: 5;
+        // Color line
+        &__spreadsheet-line-4 {
+            width: 116px !important;
+            height: 12px !important;
+            background: rgba(255, 7, 22, 0.48) !important;
+            position: absolute;
+            top: 16px;
+            left: 577px;
+            z-index: 5;
+            
+            @media (min-width: 1025px) {
+                width: 214px !important;
+                left: 669px;
+            }
+        }
+    }
+  
+
+
+
+    
+    // Colomn table
+    @media (max-width: 1024px) {
+        .documentation__table {
+            position: absolute;
+            left: 500px !important;
+            z-index: -1;
+            border: 1px solid #EFEFEF;
+            
+            .colomn {
+                width: 38px !important;
+                height: 222px;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 13px;
+                color: #1F1F1F;
+                border-left: 1px solid #EFEFEF;
+                padding-top: 14px;
+            }
+            & .colomn-3 {
+                background: #F3F3F3;
+            }
+            & .colomn-10 {
+                background: #F3F3F3;
+            }
+        }
+    }
+    // Colomn table
+    &__table {
+        position: absolute;
+        left: 525px !important;
+        z-index: -1;
+        border: 1px solid #EFEFEF;
+        
+        .colomn {
+            width: 71px !important;
+            height: 222px;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 13px;
+            color: #1F1F1F;
+            border-left: 1px solid #EFEFEF;
+            padding-top: 14px;
+        }
+        & .colomn-3 {
+            background: #F3F3F3;
+        }
+        & .colomn-10 {
+            background: #F3F3F3;
+        }
+    }
+
+    
+}
+    
+}
+

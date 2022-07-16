@@ -1,0 +1,232 @@
+
+// resolution radio
+.resolution-check {
+    display: none;
+    
+}
+
+.resolution__check+.resolution-label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.resolution__check-1+.resolution-label::before {
+    content: 'Все';
+    border-right: 1px solid #DCDCDC;
+    color: #1F1F1F;
+    padding: 5.5px 10px;
+    border-radius: 3px 0px 0px 3px;
+    
+
+}
+
+.resolution__check-2+.resolution-label::before {
+    content: 'Без резолюции';
+    border: 1px solid #DCDCDC;
+    color: #1F1F1F;
+    padding: 5.5px 10px;
+    white-space: nowrap !important;
+}
+
+.resolution__check-3+.resolution-label::before {
+    content: 'C резолюцией';
+    border-left: 1px solid #DCDCDC;
+    color: #1F1F1F;
+    white-space: nowrap !important;
+    padding: 5.5px 10px;
+    border-radius: 0px 3px 3px 0px;
+
+    
+}
+
+.resolution__check-1:checked+.resolution-label::before {
+    background: #EFEFEF;
+}
+
+.resolution__check-2:checked+.resolution-label::before {
+    background-color: #EFEFEF;
+}
+
+.resolution__check-3:checked+.resolution-label::before {
+    background-color: #EFEFEF;
+    
+}
+
+
+
+
+// date radio
+.date-check {
+    display: none;
+    
+}
+
+.date-check+.date-label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.date__month+.date-label::before {
+    content: 'Месяц';
+    border-right: 1px solid #DCDCDC;
+    color: #1F1F1F;
+    padding: 5.5px 10px;
+    border-radius: 3px 0px 0px 3px;
+    
+
+}
+
+.date__quarter+.date-label::before {
+    content: 'Квартал';
+    border: 1px solid #DCDCDC;
+    color: #1F1F1F;
+    padding: 5.5px 10px;
+    white-space: nowrap !important;
+}
+
+.date__year+.date-label::before {
+    content: 'Год';
+    border-left: 1px solid #DCDCDC;
+    color: #1F1F1F;
+    white-space: nowrap !important;
+    padding: 5.5px 10px;
+    border-radius: 0px 3px 3px 0px;
+
+    
+}
+
+.date__month:checked+.date-label::before {
+    background: #EFEFEF;
+}
+
+.date__quarter:checked+.date-label::before {
+    background-color: #EFEFEF;
+}
+
+.date__year:checked+.date-label::before {
+    background-color: #EFEFEF;
+    
+}
+
+
+
+
+
+
+// filtre radio
+
+.filter-radio {
+    display: none;
+    
+}
+
+.filter-radio+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.filter-radio+label::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../img/1.svg");
+}
+
+.form-filter__basic+.radio-filter::before {
+    content: '';
+    background-image: url("../img/2.svg");
+}
+.form-filter__table+.radio-filter::before {
+    content: '';
+    background-image: url("../img/3.svg");
+}
+
+.form-filter__basic:checked+.radio-filter::before {
+    border-color: #1F1F1F;
+    background-color: #ffffff;
+    background-image: url("../img/22.svg");
+}
+
+.form-filter__compare:checked+.radio-filter::before {
+    border-color: #1F1F1F;
+    background-color: #ffffff;
+    background-image: url("../img/11.svg");
+}
+
+.form-filter__table:checked+.radio-filter::before {
+    border-color: #1F1F1F;
+    background-color: #ffffff;
+    background-image: url("../img/33.svg");
+}
+
+
+// Document checkbox
+
+.document-check {
+    display: none;
+
+}
+
+.document-check+.checkbox {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.document-check+.checkbox::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+.document-check:checked+.checkbox::before {
+    border-color: #1F1F1F;
+    background-color: #ffffff;
+    background-image: url("../img/check.svg");
+}
+
+
+// Favorites checkbox
+.favorites {
+    display: none;
+}
+
+.favorites+.label__favorites {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.favorites+.label__favorites::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../img/Vector.svg");
+
+}
+
+.favorites:checked+.label__favorites::before {
+    border-color: #1F1F1F;
+    background-image: url("../img/bookmark-ribbon-7789.svg");
+}

@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Все эксперты</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- Header site -->
+        <div class="header">
+            <nav class="header__navbar navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <div class="icon">
+                        <span class="toggles"></span>
+                    </div>
+                    <div class="navbar-brand-2 header__navbar-brand" href="#">Все эксперты</div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Переключатель навигации">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="header__collapse  collapse navbar-collapse w-25" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto mb-2 mb-lg-0 d-flex justify-content-center">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Объекты
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-white px-2"
+                                    aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Действие</a></li>
+                                    <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Организации
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-white px-2"
+                                    aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Действие</a></li>
+                                    <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Биржа
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-white px-2"
+                                    aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Действие</a></li>
+                                    <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                                </ul>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Профсообщество
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-white px-2"
+                                    aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Действие</a></li>
+                                    <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="usernamebox">
+                            <ul class="usernamebox__list">
+                                <li>
+                                    <a href="#" class="usernamebox__icon">
+                                        <svg width="18" height="20" viewBox="0 0 18 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M11.75 16.875C11.75 17.6044 11.4603 18.3038 10.9445 18.8196C10.4288 19.3353 9.72935 19.625 9 19.625C8.27065 19.625 7.57118 19.3353 7.05546 18.8196C6.53973 18.3038 6.25 17.6044 6.25 16.875H11.75ZM15.875 15.5H0.8875C0.668696 15.5 0.458854 15.4131 0.304137 15.2584C0.149419 15.1037 0.0625 14.8938 0.0625 14.675C0.0625 14.4562 0.149419 14.2464 0.304137 14.0917C0.458854 13.9369 0.668696 13.85 0.8875 13.85H2.125V8.62501C2.125 5.29751 4.49 2.52001 7.63188 1.88751C7.61268 1.69632 7.63378 1.50323 7.6938 1.3207C7.75381 1.13816 7.85142 0.970235 7.98033 0.827741C8.10924 0.685248 8.26658 0.571354 8.44221 0.493405C8.61784 0.415456 8.80785 0.375183 9 0.375183C9.19215 0.375183 9.38217 0.415456 9.55779 0.493405C9.73342 0.571354 9.89076 0.685248 10.0197 0.827741C10.1486 0.970235 10.2462 1.13816 10.3062 1.3207C10.3662 1.50323 10.3873 1.69632 10.3681 1.88751C11.922 2.20358 13.319 3.04688 14.3225 4.27467C15.326 5.50245 15.8745 7.03929 15.875 8.62501V13.85H17.1125C17.3313 13.85 17.5411 13.9369 17.6959 14.0917C17.8506 14.2464 17.9375 14.4562 17.9375 14.675C17.9375 14.8938 17.8506 15.1037 17.6959 15.2584C17.5411 15.4131 17.3313 15.5 17.1125 15.5H15.875Z"
+                                                fill="#B8B8B8" />
+                                        </svg>
+                                    </a>
+
+                                    <a href="#" class="usernamebox__icon_active">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M11.75 18.875C11.75 19.6044 11.4603 20.3038 10.9445 20.8196C10.4288 21.3353 9.72935 21.625 9 21.625C8.27065 21.625 7.57118 21.3353 7.05546 20.8196C6.53973 20.3038 6.25 19.6044 6.25 18.875H11.75ZM15.875 17.5H0.8875C0.668696 17.5 0.458854 17.4131 0.304137 17.2584C0.149419 17.1037 0.0625 16.8938 0.0625 16.675C0.0625 16.4562 0.149419 16.2464 0.304137 16.0917C0.458854 15.9369 0.668696 15.85 0.8875 15.85H2.125V10.625C2.125 7.29751 4.49 4.52001 7.63188 3.88751C7.61268 3.69632 7.63378 3.50323 7.6938 3.3207C7.75381 3.13816 7.85142 2.97023 7.98033 2.82774C8.10924 2.68525 8.26658 2.57135 8.44221 2.4934C8.61784 2.41546 8.80785 2.37518 9 2.37518C9.19215 2.37518 9.38217 2.41546 9.55779 2.4934C9.73342 2.57135 9.89076 2.68525 10.0197 2.82774C10.1486 2.97023 10.2462 3.13816 10.3062 3.3207C10.3662 3.50323 10.3873 3.69632 10.3681 3.88751C11.922 4.20358 13.319 5.04688 14.3225 6.27467C15.326 7.50245 15.8745 9.03929 15.875 10.625V15.85H17.1125C17.3313 15.85 17.5411 15.9369 17.6959 16.0917C17.8506 16.2464 17.9375 16.4562 17.9375 16.675C17.9375 16.8938 17.8506 17.1037 17.6959 17.2584C17.5411 17.4131 17.3313 17.5 17.1125 17.5H15.875Z"
+                                                fill="#B8B8B8" />
+                                            <circle cx="19.5" cy="2.5" r="2.5" fill="#FF0716" />
+                                        </svg>
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <img class="usernamebox__avatar" src="assets/img/Без названия.png" alt="">
+                                </li>
+
+                                <li class="d-flex flex-column">
+                                    <!-- <span class="usernamebox_company-name">ООО Строймастер</span> -->
+                                    <div class="usernamebox__namebox">
+                                        <span class="usernamebox__username">Иванова А.И.</span>
+                                         <!-- -
+                                        <span class="usernamebox__post">Менеджер</span> -->
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="usernamebox__icon">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M17.3445 7.24959L16.1822 8.79919C16.184 8.9361 16.1825 9.08216 16.1805 9.1987L17.344 10.7499C17.4009 10.8259 17.4399 10.9138 17.4578 11.0069C17.4757 11.1001 17.4722 11.1962 17.4475 11.2878C17.2524 12.0108 16.9648 12.7056 16.5919 13.3551C16.5446 13.4374 16.4792 13.5079 16.4006 13.5611C16.322 13.6144 16.2323 13.649 16.1383 13.6625L14.2253 13.9357C14.1316 14.0348 14.0352 14.1312 13.936 14.225L13.6628 16.1372C13.6494 16.2312 13.6148 16.3208 13.5615 16.3994C13.5083 16.478 13.4379 16.5434 13.3556 16.5907C12.7064 16.964 12.0118 17.2519 11.289 17.4475C11.1973 17.4723 11.1012 17.4758 11.008 17.4579C10.9147 17.44 10.8268 17.4011 10.7508 17.3442L9.20492 16.1846C9.06866 16.1883 8.93201 16.1883 8.79575 16.1846L7.2505 17.3436C7.17457 17.4005 7.08667 17.4394 6.99347 17.4573C6.90028 17.4752 6.80422 17.4717 6.71259 17.447C5.98959 17.2519 5.29477 16.9644 4.64534 16.5915C4.56301 16.5442 4.49254 16.4788 4.43928 16.4002C4.38601 16.3216 4.35134 16.2319 4.33791 16.1379L4.06474 14.2249C3.96568 14.1312 3.86923 14.0348 3.7754 13.9355L1.86317 13.6624C1.76923 13.649 1.67957 13.6144 1.601 13.5611C1.52244 13.5079 1.45702 13.4375 1.40972 13.3552C1.03643 12.706 0.748453 12.0114 0.552909 11.2885C0.528129 11.1968 0.524559 11.1007 0.542472 11.0075C0.560385 10.9143 0.599308 10.8263 0.656287 10.7504L1.81862 9.20079C1.81687 9.06388 1.81828 8.91782 1.8203 8.80128L0.656821 7.25004C0.599876 7.17412 0.560967 7.08623 0.543042 6.99304C0.525117 6.89985 0.528648 6.80379 0.553367 6.71217C0.748466 5.98916 1.03601 5.29435 1.40889 4.64491C1.45618 4.56259 1.52161 4.49212 1.6002 4.43886C1.6788 4.3856 1.7685 4.35094 1.86249 4.33753L3.77555 4.06433C3.8692 3.96522 3.96564 3.86877 4.06486 3.77498L4.33799 1.86276C4.35141 1.76881 4.38606 1.67915 4.43929 1.60059C4.49252 1.52202 4.56295 1.45661 4.64523 1.40931C5.2944 1.03602 5.98901 0.748043 6.71187 0.552492C6.80352 0.527708 6.89962 0.524134 6.99287 0.54204C7.08611 0.559946 7.17405 0.598862 7.25001 0.655832L8.79591 1.81542C8.93217 1.81157 9.06881 1.81157 9.20507 1.81542L10.7503 0.656404C10.8262 0.599451 10.9141 0.560537 11.0073 0.54262C11.1005 0.5247 11.1966 0.528246 11.2882 0.552988C12.0112 0.74807 12.7061 1.0356 13.3555 1.40847C13.4378 1.45577 13.5083 1.5212 13.5615 1.59979C13.6148 1.67839 13.6495 1.76808 13.6629 1.86207L13.9367 3.77968C14.0348 3.87527 14.137 3.97953 14.218 4.06337L16.1376 4.33757C16.2316 4.35099 16.3213 4.38562 16.3998 4.43885C16.4784 4.49208 16.5438 4.5625 16.5911 4.64477C16.9644 5.29396 17.2524 5.9886 17.4479 6.71149C17.4727 6.80314 17.4763 6.89923 17.4584 6.99247C17.4404 7.08571 17.4015 7.17364 17.3445 7.24959ZM9.00037 5.56254C8.3205 5.56254 7.6559 5.76415 7.09061 6.14186C6.52531 6.51958 6.08472 7.05644 5.82455 7.68456C5.56437 8.31268 5.4963 9.00384 5.62893 9.67065C5.76157 10.3375 6.08896 10.95 6.5697 11.4307C7.05044 11.9114 7.66294 12.2388 8.32975 12.3715C8.99656 12.5041 9.68772 12.436 10.3158 12.1759C10.944 11.9157 11.4808 11.4751 11.8585 10.9098C12.2363 10.3445 12.4379 9.6799 12.4379 9.00003C12.4368 8.08867 12.0743 7.21493 11.4299 6.5705C10.7855 5.92607 9.91173 5.56357 9.00037 5.56254Z"
+                                                fill="#B8B8B8" />
+                                        </svg>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="usernamebox__submit">
+                                        Выйти
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Main -->
+        <main class="main">
+            <div class="container">
+
+                <!-- Section dates and resolutions -->
+                <section class="section-date">
+                    <div class="section-date__row row">
+                        <!-- Heading -->
+                        <div class="section-date__colomn col-12">
+                            <span class="section-date__personal-area title">Фильтры</span>
+                            <div class="resolution">
+                                <input type="radio" name="resolution" id="resolution-1"
+                                    class="resolution__check-1 resolution-check">
+                                <label for="resolution-1" class="resolution-label d-flex align-items-center"></label>
+                                <input type="radio" name="resolution" id="resolution-2"
+                                    class="resolution__check-2 resolution-check" checked>
+                                <label for="resolution-2" class="resolution-label d-flex align-items-center">
+                                </label>
+                                <input type="radio" name="resolution" id="resolution-3"
+                                    class="resolution__check-3 resolution-check">
+                                <label for="resolution-3" class="resolution-label d-flex align-items-center"></label>
+                            </div>
+                            <div class="date">
+                                <input type="radio" name="date" id="date__month" class="date__month date-check">
+                                <label for="date__month" class="date-label d-flex align-items-center"></label>
+                                <input type="radio" name="date" id="date__quarter" checked
+                                    class="date__quarter date-check">
+                                <label for="date__quarter" class="date-label d-flex align-items-center">
+                                </label>
+                                <input type="radio" name="date" id="date__year" class="date__year  date-check">
+                                <label for="date__year" class="date-label d-flex align-items-center"></label>
+                            </div>
+                            <ul class="month">
+                                <li class="btn month__arrow-left" role="presentation">
+                                    <a class="nav-link active" id="" data-mdb-toggle="" href="" role="" aria-controls=""
+                                        aria-selected=""><svg width="6" height="10" viewBox="0 0 6 10" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M4.97635 9.90907C5.1772 9.75844 5.21789 9.4735 5.06726 9.27271L1.86273 5.0001L5.06726 0.727298C5.21789 0.52645 5.17714 0.241573 4.97635 0.0909374C4.77553 -0.0596983 4.49059 -0.0189712 4.33999 0.181846L0.930918 4.7274C0.870312 4.80822 0.840009 4.90416 0.840009 5.00013C0.840009 5.09606 0.870312 5.19203 0.930918 5.27285L4.33999 9.81816C4.49059 10.019 4.7755 10.0597 4.97635 9.90907Z"
+                                                fill="black" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="btn month__month-year" role="presentation">
+                                    <a class="nav-link" id="" data-mdb-toggle="" href="" role="" aria-controls=""
+                                        aria-selected="">
+                                        <span class="month__month">Май</span>
+                                        <span class="month__year">2022</span>
+                                    </a>
+                                </li>
+                                <li class="btn month__arrow-right" role="presentation">
+                                    <a class="nav-link" id="" data-mdb-toggle="" href="" role="" aria-controls=""
+                                        aria-selected=""><svg width="6" height="10" viewBox="0 0 6 10" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M1.02365 9.90907C0.822805 9.75844 0.782108 9.4735 0.932743 9.27271L4.13727 5.0001L0.932743 0.727298C0.782108 0.52645 0.822865 0.241573 1.02365 0.0909374C1.22447 -0.0596983 1.50941 -0.0189712 1.66001 0.181846L5.06908 4.7274C5.12969 4.80822 5.15999 4.90416 5.15999 5.00013C5.15999 5.09606 5.12969 5.19203 5.06908 5.27285L1.66001 9.81816C1.50941 10.019 1.2245 10.0597 1.02365 9.90907Z"
+                                                fill="black" />
+                                        </svg></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Resolution filter -->
+                        <div class="col-3 d-flex justify-content-start">
+                            
+                        </div>
+
+                        <!-- Date filter -->
+                        <div class="col-3 d-flex justify-content-start">
+                            
+                        </div>
+
+                        <!-- Month filter -->
+                        <div class="col-3 d-flex justify-content-start">
+                            
+                        </div>
+
+                        <!-- Job filter -->
+                        <div class="col-12 border-bottom">
+                            <ul class="filter d-flex p-0">
+                                <li class="filter__in-progress" role="presentation">
+                                    <a class="nav-link active" id="" data-mdb-toggle="" href="" role="" aria-controls=""
+                                        aria-selected="">
+                                        В работе
+                                    </a>
+                                </li>
+                                <li class="filter__applications" role="presentation">
+                                    <a class="nav-link" id="" data-mdb-toggle="" href="" role="" aria-controls=""
+                                        aria-selected="">
+                                        Заявки
+                                    </a>
+                                </li>
+                                <li class="filter__archive" role="presentation">
+                                    <a class="nav-link" id="" data-mdb-toggle="" href="" role="" aria-controls=""
+                                        aria-selected="">
+                                        Архив
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Filter and search section -->
+                <section class="section-filter">
+                    <div class="section-filter__row">
+                        <div class="col-5 d-flex ">
+
+                            <!-- Filter form -->
+                            <div class="box-filter d-flex">
+                                <a href="#" class="box-filter__add-2 border">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.25 5.25H6.75V0.75H5.25V5.25H0.75V6.75H5.25V11.25H6.75V6.75H11.25V5.25Z" fill="black"/>
+                                        </svg>
+                                        
+                                </a>
+                                <form method="post" class="form-filter d-flex align-items-center">
+                                    <input type="radio" name="document" id="compare"
+                                        class="form-filter__compare filter-radio"></input>
+                                    <label for="compare" class="radio-filter"></label>
+                                    <input type="radio" name="document" id="basic" 
+                                        class="form-filter__basic filter-radio"></input>
+                                    <label for="basic" class="radio-filter"></label>
+                                    <input type="radio" name="document" id="table" checked
+                                        class="form-filter__table filter-radio"></input>
+                                    <label for="table" class="radio-filter"></label>
+                                </form>
+                            </div>
+
+                            <!-- Search form -->
+                            <form amethod="post" class="form me-5">
+                                <input type="search" placeholder="Поиск" class="form__search">
+                                <div class="form__numbers align-items-center">
+                                    <span class="num-1 d-flex align-items-center">1</span>
+                                    <span>из</span>
+                                    <span class="num-2"> 20</span>
+                                    <span class="arrow-top d-flex align-items-center">
+                                        <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M9.90907 4.97726C9.75844 5.17811 9.4735 5.21881 9.27271 5.06817L5.0001 1.86365L0.727298 5.06817C0.52645 5.21881 0.241573 5.17805 0.0909374 4.97726C-0.0596983 4.77645 -0.0189712 4.49151 0.181846 4.3409L4.7274 0.931834C4.80822 0.871228 4.90416 0.840925 5.00013 0.840925C5.09606 0.840925 5.19203 0.871228 5.27285 0.931834L9.81816 4.3409C10.019 4.49151 10.0597 4.77642 9.90907 4.97726Z"
+                                                fill="#969696" />
+                                        </svg>
+
+                                    </span>
+                                    <span class="arrow-bottom d-flex align-items-center">
+                                        <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M9.90907 1.02274C9.75844 0.821889 9.4735 0.781192 9.27271 0.931828L5.0001 4.13635L0.727298 0.931828C0.52645 0.781192 0.241573 0.821949 0.0909374 1.02274C-0.0596983 1.22355 -0.0189712 1.50849 0.181846 1.6591L4.7274 5.06817C4.80822 5.12877 4.90416 5.15907 5.00013 5.15907C5.09606 5.15907 5.19203 5.12877 5.27285 5.06817L9.81816 1.6591C10.019 1.50849 10.0597 1.22358 9.90907 1.02274Z"
+                                                fill="#969696" />
+                                        </svg>
+
+                                    </span>
+                                </div>
+                                <button type="submit" class="form__submit submit">
+                                    <span class="submit__dots">
+                                        <svg width="2" height="10" viewBox="0 0 2 10" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.332682 0.999995C0.332682 1.36818 0.631159 1.66666 0.999349 1.66666C1.36754 1.66666 1.66602 1.36818 1.66602 0.999995C1.66602 0.631805 1.36754 0.333328 0.999349 0.333328C0.631159 0.333328 0.332682 0.631805 0.332682 0.999995Z"
+                                                fill="#969696" stroke="#969696" stroke-width="0.5"
+                                                stroke-miterlimit="10" />
+                                            <path
+                                                d="M0.332682 4.99999C0.332682 5.36818 0.631159 5.66666 0.999349 5.66666C1.36754 5.66666 1.66602 5.36818 1.66602 4.99999C1.66602 4.63181 1.36754 4.33333 0.999349 4.33333C0.631159 4.33333 0.332682 4.63181 0.332682 4.99999Z"
+                                                fill="#969696" stroke="#969696" stroke-width="0.5"
+                                                stroke-miterlimit="10" />
+                                            <path
+                                                d="M0.332682 9C0.332682 9.36819 0.631159 9.66666 0.999349 9.66666C1.36754 9.66666 1.66602 9.36819 1.66602 9C1.66602 8.63181 1.36754 8.33333 0.999349 8.33333C0.631159 8.33333 0.332682 8.63181 0.332682 9Z"
+                                                fill="#969696" stroke="#969696" stroke-width="0.5"
+                                                stroke-miterlimit="10" />
+                                        </svg>
+
+                                    </span>
+                                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M4.82198 4.00001L7.33031 1.49751C7.44015 1.38766 7.50186 1.23868 7.50186 1.08334C7.50186 0.927997 7.44015 0.779017 7.33031 0.669173C7.22046 0.559329 7.07148 0.49762 6.91614 0.49762C6.7608 0.49762 6.61182 0.559329 6.50198 0.669173L3.99948 3.17751L1.49698 0.669173C1.38713 0.559329 1.23815 0.49762 1.08281 0.49762C0.927467 0.49762 0.778487 0.559329 0.668643 0.669173C0.558799 0.779017 0.497089 0.927997 0.497089 1.08334C0.497089 1.23868 0.558799 1.38766 0.668643 1.49751L3.17698 4.00001L0.668643 6.50251C0.613968 6.55674 0.570571 6.62125 0.540956 6.69234C0.511341 6.76342 0.496094 6.83967 0.496094 6.91667C0.496094 6.99368 0.511341 7.06992 0.540956 7.14101C0.570571 7.21209 0.613968 7.27661 0.668643 7.33084C0.722871 7.38551 0.787388 7.42891 0.858473 7.45853C0.929558 7.48814 1.0058 7.50339 1.08281 7.50339C1.15982 7.50339 1.23606 7.48814 1.30715 7.45853C1.37823 7.42891 1.44275 7.38551 1.49698 7.33084L3.99948 4.82251L6.50198 7.33084C6.5562 7.38551 6.62072 7.42891 6.69181 7.45853C6.76289 7.48814 6.83914 7.50339 6.91614 7.50339C6.99315 7.50339 7.06939 7.48814 7.14048 7.45853C7.21156 7.42891 7.27608 7.38551 7.33031 7.33084C7.38498 7.27661 7.42838 7.21209 7.458 7.14101C7.48761 7.06992 7.50286 6.99368 7.50286 6.91667C7.50286 6.83967 7.48761 6.76342 7.458 6.69234C7.42838 6.62125 7.38498 6.55674 7.33031 6.50251L4.82198 4.00001Z"
+                                            fill="#B8B8B8" />
+                                    </svg>
+
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Document section -->
+                <div class="scroll">
+                    <section class="section__document-file document-file">
+                        <div class="documentation__row row d-flex">
+                            <div class="col-12 mt-4">
+                                <div class="project d-flex align-items-center">
+                                    <span class="project__name">Кабинет проекта</span>
+                                    <div class="form__action project__file me-5">
+                                        <span class="project__name">Ключ</span>
+                                        <a href="#" class="form__download btn p-0">
+                                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="0.5" y="0.5" width="31" height="31" rx="2.5" fill="white"
+                                                    stroke="#DCDCDC" />
+                                                <path
+                                                    d="M16.8327 15.7008L17.7669 14.7675C17.9239 14.6156 18.1344 14.5314 18.3529 14.5332C18.5714 14.5349 18.7804 14.6224 18.935 14.7768C19.0897 14.9312 19.1775 15.1402 19.1795 15.3587C19.1816 15.5772 19.0977 15.7877 18.946 15.945L16.5885 18.3025C16.5113 18.3802 16.4195 18.4418 16.3184 18.4838C16.2173 18.5259 16.1089 18.5475 15.9993 18.5475C15.8898 18.5475 15.7814 18.5259 15.6803 18.4838C15.5792 18.4418 15.4874 18.3802 15.4102 18.3025L13.0527 15.945C12.9753 15.8675 12.914 15.7756 12.8721 15.6744C12.8303 15.5732 12.8088 15.4647 12.8089 15.3552C12.809 15.2458 12.8306 15.1373 12.8726 15.0362C12.9146 14.9351 12.976 14.8432 13.0535 14.7658C13.131 14.6885 13.223 14.6271 13.3241 14.5853C13.4253 14.5435 13.5338 14.522 13.6433 14.522C13.7528 14.5221 13.8612 14.5438 13.9623 14.5857C14.0634 14.6277 14.1553 14.6892 14.2327 14.7667L15.166 15.7008V11C15.166 10.779 15.2538 10.567 15.4101 10.4107C15.5664 10.2545 15.7783 10.1667 15.9993 10.1667C16.2204 10.1667 16.4323 10.2545 16.5886 10.4107C16.7449 10.567 16.8327 10.779 16.8327 11V15.7008ZM10.9993 20.1667H20.9994C21.2204 20.1667 21.4323 20.2545 21.5886 20.4107C21.7449 20.567 21.8327 20.779 21.8327 21C21.8327 21.221 21.7449 21.433 21.5886 21.5893C21.4323 21.7455 21.2204 21.8333 20.9994 21.8333H10.9993C10.7783 21.8333 10.5664 21.7455 10.4101 21.5893C10.2538 21.433 10.166 21.221 10.166 21C10.166 20.779 10.2538 20.567 10.4101 20.4107C10.5664 20.2545 10.7783 20.1667 10.9993 20.1667V20.1667Z"
+                                                    fill="black" />
+                                            </svg>
+    
+                                        </a>
+                                        <a href="#" class="form__document-open btn p-0">
+                                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="0.5" y="0.5" width="31" height="31" rx="2.5" fill="white"
+                                                    stroke="#DCDCDC" />
+                                                <path
+                                                    d="M18.8125 16.75C18.8125 16.4394 18.5606 16.1875 18.25 16.1875H13.75C13.4393 16.1875 13.1875 16.4394 13.1875 16.75C13.1875 17.0606 13.4393 17.3125 13.75 17.3125H18.25C18.5606 17.3125 18.8125 17.0606 18.8125 16.75Z"
+                                                    fill="black" />
+                                                <path
+                                                    d="M18.8125 19.75C18.8125 19.4394 18.5606 19.1875 18.25 19.1875H13.75C13.4393 19.1875 13.1875 19.4394 13.1875 19.75C13.1875 20.0606 13.4393 20.3125 13.75 20.3125H18.25C18.5606 20.3125 18.8125 20.0606 18.8125 19.75Z"
+                                                    fill="black" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M12.25 8.6875C11.1109 8.6875 10.1875 9.61092 10.1875 10.75V21.25C10.1875 22.3891 11.1109 23.3125 12.25 23.3125H19.75C20.8891 23.3125 21.8125 22.3891 21.8125 21.25V12.9757C21.8125 12.6902 21.7193 12.4124 21.5472 12.1845L19.2989 9.20878C19.0508 8.88047 18.6632 8.6875 18.2516 8.6875H12.25ZM11.3125 10.75C11.3125 10.2322 11.7322 9.8125 12.25 9.8125H17.6875V13.1103C17.6875 13.4209 17.9394 13.6728 18.25 13.6728H20.6875V21.25C20.6875 21.7678 20.2678 22.1875 19.75 22.1875H12.25C11.7322 22.1875 11.3125 21.7678 11.3125 21.25V10.75Z"
+                                                    fill="black" />
+                                            </svg>
+    
+                                        </a>
+                                        <a href="#" class="form__table btn p-0">
+                                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="0.5" y="0.5" width="31" height="31" rx="2.5" fill="white"
+                                                    stroke="#DCDCDC" />
+                                                <path
+                                                    d="M10 11.0036V12.4867V12.8912V20.9965H22V12.8912V12.4867V11.0036H10ZM17.4607 17.4857H14.5393V15.5929H17.4607V17.4857ZM18.2697 15.5929H21.191V17.4857H18.2697V15.5929ZM17.4607 18.2947V20.1875H14.5393V18.2947H17.4607ZM10.809 15.5929H13.7303V17.4857H10.809V15.5929ZM14.5393 14.784V12.8912H17.4607V14.784H14.5393ZM13.7303 12.8912V14.784H10.809V12.8912H13.7303ZM10.809 18.2947H13.7303V20.1875H10.809V18.2947ZM18.2697 20.1875V18.2947H21.191V20.1875H18.2697ZM21.191 14.784H18.2697V12.8912H21.191V14.784Z"
+                                                    fill="black" />
+                                            </svg>
+    
+                                        </a>
+                                    </div>
+                                </div>
+    
+                                <div class="timer d-flex align-items-center">
+                                    <span class="timer__name">Таймер</span>
+                                    <div class="timer__file d-flex align-items-center">
+                                        <div class="timer__time d-flex flex-column">
+                                            <span class="timer__line"><span class="timer__color"></span></span>
+                                            <span class="timer__time">Осталось 24 дня</span>
+                                        </div>
+                                        <a href="#" class="timer__add">
+                                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="0.5" y="0.5" width="17" height="17" rx="2.5" fill="white" stroke="#DCDCDC"/>
+                                                <path d="M12.6345 8.48077H9.51908V5.36538H8.48062V8.48077H5.36523V9.51923H8.48062V12.6346H9.51908V9.51923H12.6345V8.48077Z" fill="black"/>
+                                                </svg>
+                                                 
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="payment d-flex align-items-center">
+                                    <span class="payment__name">Договор, оплата %</span>
+                                    <div class="payment__file">
+                                        <a href="#" class="payment__blank">
+                                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="0.5" y="0.5" width="31" height="31" rx="2.5" fill="white" stroke="#DCDCDC"/>
+                                                <path d="M20.7225 8C20.7225 8.29075 20.486 8.52728 20.1952 8.52728C19.9045 8.52728 19.668 8.29075 19.668 8H18.6245C18.6245 8.29075 18.388 8.52728 18.0973 8.52728C17.8065 8.52728 17.57 8.29075 17.57 8H16.5265C16.5265 8.29075 16.2899 8.52728 15.9992 8.52728C15.7085 8.52728 15.4719 8.29075 15.4719 8H14.4285C14.4285 8.29075 14.1919 8.52728 13.9012 8.52728C13.6105 8.52728 13.3739 8.29075 13.3739 8H12.3305C12.3305 8.29075 12.0939 8.52728 11.8032 8.52728C11.5125 8.52728 11.2759 8.29075 11.2759 8H10.2324V24H11.2759C11.2759 23.7093 11.5125 23.4727 11.8032 23.4727C12.0939 23.4727 12.3305 23.7093 12.3305 24H13.3739C13.3739 23.7093 13.6105 23.4727 13.9012 23.4727C14.1919 23.4727 14.4285 23.7093 14.4285 24H15.4719C15.4719 23.7093 15.7085 23.4727 15.9992 23.4727C16.2899 23.4727 16.5265 23.7093 16.5265 24H17.57C17.57 23.7093 17.8065 23.4727 18.0972 23.4727C18.388 23.4727 18.6245 23.7093 18.6245 24H19.668C19.668 23.7093 19.9045 23.4727 20.1952 23.4727C20.486 23.4727 20.7225 23.7093 20.7225 24H21.766V8H20.7225ZM20.7225 22.5203C20.5576 22.4614 20.3801 22.4292 20.1952 22.4292C19.7924 22.4292 19.4245 22.5818 19.1462 22.8321C18.8679 22.5818 18.5001 22.4292 18.0973 22.4292C17.6944 22.4292 17.3266 22.5818 17.0483 22.8321C16.7699 22.5818 16.4021 22.4292 15.9993 22.4292C15.5964 22.4292 15.2286 22.5818 14.9503 22.8321C14.6719 22.5818 14.3041 22.4292 13.9013 22.4292C13.4984 22.4292 13.1306 22.5818 12.8523 22.8321C12.574 22.5818 12.2061 22.4292 11.8033 22.4292C11.6185 22.4292 11.4409 22.4613 11.276 22.5203V9.47972C11.4409 9.53863 11.6185 9.57075 11.8033 9.57075C12.2062 9.57075 12.574 9.41816 12.8523 9.16791C13.1306 9.41816 13.4984 9.57075 13.9013 9.57075C14.3041 9.57075 14.672 9.41816 14.9503 9.16791C15.2286 9.41816 15.5964 9.57075 15.9993 9.57075C16.4021 9.57075 16.77 9.41816 17.0483 9.16791C17.3266 9.41816 17.6944 9.57075 18.0973 9.57075C18.5001 9.57075 18.8679 9.41816 19.1462 9.16791C19.4246 9.41816 19.7924 9.57075 20.1952 9.57075C20.3801 9.57075 20.5576 9.53866 20.7225 9.47972V22.5203Z" fill="black"/>
+                                                <path d="M16.8798 11.1993H12.6836V12.2428H16.8798V11.1993Z" fill="black"/>
+                                                <path d="M19.3161 11.1993H17.9297V12.2428H19.3161V11.1993Z" fill="black"/>
+                                                <path d="M16.8798 13.5249H12.6836V14.5683H16.8798V13.5249Z" fill="black"/>
+                                                <path d="M19.3161 13.5249H17.9297V14.5683H19.3161V13.5249Z" fill="black"/>
+                                                <path d="M16.8798 15.8504H12.6836V16.8939H16.8798V15.8504Z" fill="black"/>
+                                                <path d="M19.3161 15.8504H17.9297V16.8939H19.3161V15.8504Z" fill="black"/>
+                                                <path d="M19.316 19.6243H14.9512V20.6678H19.316V19.6243Z" fill="black"/>
+                                                </svg>
+                                        </a>
+                                        <span class="payment__summ-percent">50% <span class="payment__summ">(25000 руб.)</span></span>
+                                    </div>
+                                    
+                                </div>
+                                <div class="cryptocontainer d-flex align-items-center">
+                                    <span class="cryptocontainer__name">Криптоконтейнер</span>
+                                    <div class="cryptocontainer__file form__action me-5">
+                                        <a href="#" class="form__download btn p-0">
+                                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="0.5" y="0.5" width="31" height="31" rx="2.5" fill="white" stroke="#DCDCDC"/>
+                                                <path d="M18 16C18 16.5304 17.7893 17.0391 17.4142 17.4142C17.0391 17.7893 16.5304 18 16 18C15.4696 18 14.9609 17.7893 14.5858 17.4142C14.2107 17.0391 14 16.5304 14 16C14 15.4696 14.2107 14.9609 14.5858 14.5858C14.9609 14.2107 15.4696 14 16 14C16.5304 14 17.0391 14.2107 17.4142 14.5858C17.7893 14.9609 18 15.4696 18 16Z" fill="#0D0D0D"/>
+                                                <path d="M22.5963 15.702C21.1576 12.824 18.603 11.3333 16.0003 11.3333C13.3983 11.3333 10.843 12.824 9.40429 15.702C9.35806 15.7945 9.33398 15.8966 9.33398 16C9.33398 16.1034 9.35806 16.2055 9.40429 16.298C10.843 19.176 13.3976 20.6667 16.0003 20.6667C18.6023 20.6667 21.1576 19.176 22.5963 16.298C22.6425 16.2055 22.6666 16.1034 22.6666 16C22.6666 15.8966 22.6425 15.7945 22.5963 15.702ZM16.0003 19.3333C14.021 19.3333 11.999 18.2533 10.7536 16C11.999 13.7467 14.0203 12.6667 16.0003 12.6667C17.9796 12.6667 20.0016 13.7467 21.247 16C20.0016 18.2533 17.9796 19.3333 16.0003 19.3333Z" fill="#0D0D0D"/>
+                                                </svg>
+                                                
+    
+                                        </a>
+                                        <a href="#" class="form__document-open btn p-0">
+                                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="0.5" y="0.5" width="31" height="31" rx="2.5" fill="white" stroke="#DCDCDC"/>
+                                                <g clip-path="url(#clip0_241_2063)">
+                                                <path d="M21.2083 10.9624L20.7907 10.593C19.8182 9.73065 18.329 9.82007 17.467 10.7928L16.2719 12.141C16.0022 12.4454 16.0302 12.9126 16.3344 13.1826L16.4466 13.2821C16.7519 13.5528 17.2177 13.5248 17.4886 13.2195L18.6835 11.8713C18.9501 11.5709 19.4118 11.5432 19.7125 11.8094L20.1295 12.1794C20.4302 12.4459 20.4586 12.9075 20.1916 13.2081L17.5786 16.156C17.3574 16.4059 16.9955 16.4732 16.6985 16.3198C16.3738 16.1521 15.9777 16.2258 15.7352 16.4992L15.7148 16.5222C15.5507 16.7073 15.4823 16.953 15.5271 17.1963C15.572 17.4394 15.7234 17.6446 15.9425 17.7591C16.289 17.9402 16.6633 18.0279 17.0338 18.0279C17.6905 18.0279 18.3357 17.7526 18.7955 17.2341L21.4084 14.2867C22.2695 13.3152 22.1799 11.8242 21.2083 10.9624Z" fill="black"/>
+                                                <path d="M15.665 18.8182L15.5526 18.7186C15.248 18.4487 14.7806 18.4771 14.5109 18.7815L13.3164 20.1296C13.0497 20.43 12.5883 20.4578 12.2879 20.1918L11.8703 19.8213C11.5695 19.5549 11.5412 19.0937 11.8082 18.7929L14.4212 15.8453C14.6378 15.6007 14.9943 15.5307 15.2881 15.6751C15.6257 15.841 16.0356 15.7603 16.2856 15.4782L16.295 15.4676C16.4555 15.2864 16.5231 15.0458 16.4804 14.8075C16.4377 14.5693 16.2908 14.3671 16.0774 14.2529C15.1123 13.7363 13.931 13.9477 13.2048 14.7672L10.5916 17.7142V17.7142C9.7304 18.6857 9.81999 20.1767 10.7914 21.0382L11.209 21.408C11.6564 21.8047 12.2139 21.9996 12.7696 21.9996C13.4204 21.9996 14.0685 21.7321 14.5333 21.208L15.7279 19.8599C15.9982 19.5547 15.9705 19.089 15.665 18.8182Z" fill="black"/>
+                                                </g>
+                                                <defs>
+                                                <clipPath id="clip0_241_2063">
+                                                <rect width="12" height="12" fill="white" transform="translate(10 10)"/>
+                                                </clipPath>
+                                                </defs>
+                                                </svg>
+                                                
+    
+                                        </a>
+                                        <a href="#" class="form__table btn p-0">
+                                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="0.5" y="0.5" width="31" height="31" rx="2.5" fill="white" stroke="#DCDCDC"/>
+                                                <path d="M16.8327 15.7008L17.7668 14.7675C17.9239 14.6156 18.1344 14.5314 18.3529 14.5332C18.5714 14.5349 18.7804 14.6224 18.935 14.7768C19.0897 14.9312 19.1775 15.1402 19.1795 15.3587C19.1816 15.5772 19.0977 15.7877 18.946 15.945L16.5885 18.3025C16.5113 18.3802 16.4195 18.4418 16.3184 18.4838C16.2173 18.5259 16.1089 18.5475 15.9993 18.5475C15.8898 18.5475 15.7814 18.5259 15.6803 18.4838C15.5792 18.4418 15.4874 18.3802 15.4102 18.3025L13.0527 15.945C12.9753 15.8675 12.914 15.7756 12.8721 15.6744C12.8303 15.5732 12.8088 15.4647 12.8089 15.3552C12.809 15.2458 12.8306 15.1373 12.8726 15.0362C12.9146 14.9351 12.976 14.8432 13.0535 14.7658C13.131 14.6885 13.223 14.6271 13.3241 14.5853C13.4253 14.5435 13.5338 14.522 13.6433 14.522C13.7528 14.5221 13.8612 14.5438 13.9623 14.5857C14.0634 14.6277 14.1553 14.6892 14.2327 14.7667L15.166 15.7008V11C15.166 10.779 15.2538 10.567 15.4101 10.4107C15.5664 10.2545 15.7783 10.1667 15.9993 10.1667C16.2204 10.1667 16.4323 10.2545 16.5886 10.4107C16.7449 10.567 16.8327 10.779 16.8327 11V15.7008ZM10.9993 20.1667H20.9994C21.2204 20.1667 21.4323 20.2545 21.5886 20.4107C21.7449 20.567 21.8327 20.779 21.8327 21C21.8327 21.221 21.7449 21.433 21.5886 21.5893C21.4323 21.7455 21.2204 21.8333 20.9994 21.8333H10.9993C10.7783 21.8333 10.5664 21.7455 10.4101 21.5893C10.2538 21.433 10.166 21.221 10.166 21C10.166 20.779 10.2538 20.567 10.4101 20.4107C10.5664 20.2545 10.7783 20.1667 10.9993 20.1667Z" fill="black"/>
+                                                </svg>
+                                                
+    
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!-- Document name-->
+                            <div class="documentation__col col-12 d-flex align-items-start flex-column  
+                            justify-content-start w-100">
+                                
+                            <div class="document w-50">
+                                <div class="document__list d-flex align-items-center">
+                                    <button class="document__grid">
+                                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect x="0.5" y="0.5" width="25" height="25" rx="2.5" fill="white" stroke="#DCDCDC"/>
+                                            <path d="M8.40736 9.79128C9.17815 9.79128 9.803 9.16643 9.803 8.39564C9.803 7.62485 9.17815 7 8.40736 7C7.63657 7 7.01172 7.62485 7.01172 8.39564C7.01172 9.16643 7.63657 9.79128 8.40736 9.79128Z" fill="black"/>
+                                            <path d="M17.6007 9.79128C18.3715 9.79128 18.9964 9.16643 18.9964 8.39564C18.9964 7.62485 18.3715 7 17.6007 7C16.8299 7 16.2051 7.62485 16.2051 8.39564C16.2051 9.16643 16.8299 9.79128 17.6007 9.79128Z" fill="black"/>
+                                            <path d="M13.0031 9.79128C13.7739 9.79128 14.3987 9.16643 14.3987 8.39564C14.3987 7.62485 13.7739 7 13.0031 7C12.2323 7 11.6074 7.62485 11.6074 8.39564C11.6074 9.16643 12.2323 9.79128 13.0031 9.79128Z" fill="black"/>
+                                            <path d="M8.39957 14.3957C9.17038 14.3957 9.79524 13.7708 9.79524 13C9.79524 12.2292 9.17038 11.6043 8.39957 11.6043C7.62877 11.6043 7.00391 12.2292 7.00391 13C7.00391 13.7708 7.62877 14.3957 8.39957 14.3957Z" fill="black"/>
+                                            <path d="M17.591 14.3957C18.3618 14.3957 18.9866 13.7708 18.9866 13C18.9866 12.2292 18.3618 11.6043 17.591 11.6043C16.8202 11.6043 16.1953 12.2292 16.1953 13C16.1953 13.7708 16.8202 14.3957 17.591 14.3957Z" fill="black"/>
+                                            <path d="M12.9953 14.3957C13.7661 14.3957 14.3909 13.7708 14.3909 13C14.3909 12.2292 13.7661 11.6043 12.9953 11.6043C12.2245 11.6043 11.5996 12.2292 11.5996 13C11.5996 13.7708 12.2245 14.3957 12.9953 14.3957Z" fill="black"/>
+                                            <path d="M8.39955 19C9.17034 19 9.79518 18.3752 9.79518 17.6044C9.79518 16.8336 9.17034 16.2087 8.39955 16.2087C7.62876 16.2087 7.00391 16.8336 7.00391 17.6044C7.00391 18.3752 7.62876 19 8.39955 19Z" fill="black"/>
+                                            <path d="M17.591 19C18.3617 19 18.9866 18.3752 18.9866 17.6044C18.9866 16.8336 18.3617 16.2087 17.591 16.2087C16.8202 16.2087 16.1953 16.8336 16.1953 17.6044C16.1953 18.3752 16.8202 19 17.591 19Z" fill="black"/>
+                                            <path d="M12.9952 19C13.766 19 14.3909 18.3752 14.3909 17.6044C14.3909 16.8336 13.766 16.2087 12.9952 16.2087C12.2245 16.2087 11.5996 16.8336 11.5996 17.6044C11.5996 18.3752 12.2245 19 12.9952 19Z" fill="black"/>
+                                            </svg>
+                                    </button>
+                                        <span class="document__chapter">
+                                            Раздел
+                                            <span><svg width="11" height="6" viewBox="0 0 11 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5.5 6L10.2631 0.75H0.73686L5.5 6Z" fill="#898989"/>
+                                                </svg>
+                                                </span>
+                                        </span>
+                                        <span class="document__expert">
+                                            Эксперт
+                                            <span><svg width="11" height="6" viewBox="0 0 11 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5.5 6L10.2631 0.75H0.73686L5.5 6Z" fill="#898989"/>
+                                                </svg>
+                                                </span>
+                                        </span>
+                                </div>
+                            </div>
+    
+    
+                                <!-- Document file -->
+                                <div class="document w-100">
+                                    <div class="documentation__document d-flex align-items-center">
+                                        <form method="post" class="form d-flex align-items-center">
+                                            <input type="checkbox" name="document" id="checkbox" class="document-check">
+                                            <label for="checkbox" class="checkbox d-flex align-items-center"></label>
+    
+                                            <input type="checkbox" name="favorites" id="favorites" class="favorites">
+                                            <label for="favorites"
+                                                class="label__favorites d-flex align-items-center"></label>
+    
+                                            <span class="form__active d-flex align-items-center ">
+                                                <svg width="5" height="5" viewBox="0 0 5 5" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#FF0716" />
+                                                </svg>
+    
+                                            </span>
+                                            <a href="#" class="form__document-chapter d-flex align-items-center">
+                                                ИГДИ
+                                            </a>
+                                            <a href="#" class="form__document-username d-flex align-items-center">
+                                                Иванова А.И.
+                                            </a>
+                                        </form>
+    
+                                        <!-- Download options -->
+                                        <div class="document__file me-5 d-flex align-items-center">
+                                            <div class="btn-group dropup me-4">
+                                                <button class="file__btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                  ...
+                                                </ul>
+                                            </div>
+                                            <div class="file__time d-flex flex-column">
+                                                <span class="file__line"><span class="file__color file__color-blue"></span></span>
+                                                <span class="file__time-name">Осталось 24 дня</span>
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <!-- Document file -->
+                                <div class="document-2 document w-100">
+                                    <div class="documentation__document d-flex align-items-center">
+                                        <form method="post" class="form d-flex align-items-center">
+                                            <input type="checkbox" name="document" id="checkbox-1" checked
+                                                class="document-check">
+                                            <label for="checkbox-1" class="checkbox d-flex align-items-center"></label>
+    
+                                            <input type="checkbox" name="favorites" id="favorites-1" class="favorites">
+                                            <label for="favorites-1"
+                                                class="label__favorites d-flex align-items-center"></label>
+    
+                                            <span class="form__active d-flex align-items-center ">
+                                                <svg width="5" height="5" viewBox="0 0 5 5" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#FF0716" />
+                                                </svg>
+    
+                                            </span>
+                                            <a href="#" class="form__document-chapter d-flex align-items-center">
+                                                ИГДИ
+                                            </a>
+                                            <a href="#" class="form__document-username d-flex align-items-center">
+                                                Павленко Д.С.
+                                            </a>
+                                        </form>
+    
+                                        <!-- Download options -->
+                                        <div class="document__file me-5 d-flex align-items-center">
+                                            <div class="btn-group  me-4">
+                                                <button class="file__btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                  ...
+                                                </ul>
+                                            </div>
+                                            <div class="file__time d-flex flex-column">
+                                                <span class="file__line"><span class="file__color file__color-red"></span></span>
+                                                <span class="file__time-name">Осталось 24 дня</span>
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <!-- Document file -->
+                                <div class="document w-100">
+                                    <div class="documentation__document d-flex align-items-center">
+                                        <form method="post" class="form d-flex align-items-center">
+                                            <input type="checkbox" name="document" id="checkbox-2" class="document-check">
+                                            <label for="checkbox-2" class="checkbox d-flex align-items-center"></label>
+    
+                                            <input type="checkbox" name="favorites" id="favorites-2" class="favorites">
+                                            <label for="favorites-2"
+                                                class="label__favorites d-flex align-items-center"></label>
+    
+                                            <span class="form__active d-flex align-items-center ">
+                                                <svg width="5" height="5" viewBox="0 0 5 5" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#FF0716" />
+                                                </svg>
+    
+                                            </span>
+                                            <a href="#" class="form__document-chapter d-flex align-items-center">
+                                                ИГДИ
+                                            </a>
+                                            <a href="#" class="form__document-username d-flex align-items-center">
+                                                Иванова А.И.
+                                            </a>
+                                        </form>
+    
+                            
+    
+                                        <!-- Download options -->
+                                        <div class="document__file document__file-1 me-5 d-flex align-items-center">
+                                            <div class="btn-group dropup me-4">
+                                                <button class="file__btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                  ...
+                                                </ul>
+                                            </div>
+                                            <div class="file__time d-flex flex-column">
+                                                <span class="file__line"><span class="file__color file__color-blue"></span></span>
+                                                <span class="file__time-name">Осталось 24 дня</span>
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <!-- Document file -->
+                                <div class="document w-100">
+                                    <div class="documentation__document d-flex align-items-center">
+                                        <form method="post" class="form d-flex align-items-center">
+                                            <input type="checkbox" name="document" id="checkbox-5" class="document-check">
+                                            <label for="checkbox-5" class="checkbox d-flex align-items-center"></label>
+    
+                                            <input type="checkbox" name="favorites" id="favorites-5" class="favorites">
+                                            <label for="favorites-5"
+                                                class="label__favorites d-flex align-items-center"></label>
+    
+                                            <span class="form__active d-flex align-items-center ">
+                                                <svg width="5" height="5" viewBox="0 0 5 5" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#FF0716" />
+                                                </svg>
+    
+                                            </span>
+                                            <a href="#" class="form__document-chapter d-flex align-items-center">
+                                                ИГИ
+                                            </a>
+                                            <a href="#" class="form__document-username d-flex align-items-center">
+                                                Павленко Д.С.
+                                            </a>
+                                        </form>
+    
+                                        
+                                        <!-- Download options -->
+                                        <div class="document__file document__file-1 me-5 d-flex align-items-center">
+                                            <div class="btn-group me-4">
+                                                <button class="file__btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                  ...
+                                                </ul>
+                                            </div>
+                                            <div class="file__time d-flex flex-column">
+                                                <span class="file__line"><span class="file__color file__color-orange "></span></span>
+                                                <span class="file__time-name">Осталось 24 дня</span>
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <!-- Document file -->
+                                <div class="document w-100">
+                                    <div class="documentation__document d-flex align-items-center">
+                                        <form method="post" class="form d-flex align-items-center">
+                                            <input type="checkbox" name="document" id="checkbox-6" class="document-check">
+                                            <label for="checkbox-6" class="checkbox d-flex align-items-center"></label>
+    
+                                            <input type="checkbox" name="favorites" id="favorites-6" class="favorites">
+                                            <label for="favorites-6"
+                                                class="label__favorites d-flex align-items-center"></label>
+    
+                                            <span class="form__active d-flex align-items-center ">
+                                                <svg width="5" height="5" viewBox="0 0 5 5" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#FF0716" />
+                                                </svg>
+    
+                                            </span>
+                                            <a href="#" class="form__document-chapter d-flex align-items-center">
+                                                ИГДИ
+                                            </a>
+                                            <a href="#" class="form__document-username d-flex align-items-center">
+                                                Иванова А.И.
+                                            </a>
+                                        </form>
+    
+                            
+    
+                                        <!-- Download options -->
+                                        <div class="document__file me-5 d-flex align-items-center">
+                                            <div class="btn-group dropup me-4">
+                                                <button class="file__btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                  ...
+                                                </ul>
+                                            </div>
+                                            <div class="file__time d-flex flex-column">
+                                                <span class="file__line"><span class="file__color file__color-blue"></span></span>
+                                                <span class="file__time-name">Осталось 24 дня</span>
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <!-- Document file -->
+                                <div class="document w-100">
+                                    <div class="documentation__document d-flex align-items-center">
+                                        <form method="post" class="form d-flex align-items-center">
+                                            <input type="checkbox" name="document" id="checkbox-7" class="document-check">
+                                            <label for="checkbox-7" class="checkbox d-flex align-items-center"></label>
+    
+                                            <input type="checkbox" name="favorites" id="favorites-7" class="favorites">
+                                            <label for="favorites-3"
+                                                class="label__favorites d-flex align-items-center"></label>
+    
+                                            <span class="form__active d-flex align-items-center ">
+                                                <svg width="7" height="5" viewBox="0 0 5 5" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="2.5" r="2.5" fill="#FF0716" />
+                                                </svg>
+    
+                                            </span>
+                                            <a href="#" class="form__document-chapter d-flex align-items-center">
+                                                ИГИ
+                                            </a>
+                                            <a href="#" class="form__document-username d-flex align-items-center">
+                                                Павленко Д.С.
+                                            </a>
+                                        </form>
+    
+                                        
+                                        <!-- Download options -->
+                                        <div class="document__file me-5 d-flex align-items-center">
+                                            <div class="btn-group me-4">
+                                                <button class="file__btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                  ...
+                                                </ul>
+                                            </div>
+                                            <div class="file__time d-flex flex-column">
+                                                <span class="file__line"><span class="file__color file__color-orange "></span></span>
+                                                <span class="file__time-name">Осталось 24 дня</span>
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div>
+    
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+
+    <div class="documentation__spreadsheet-line line"></div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
