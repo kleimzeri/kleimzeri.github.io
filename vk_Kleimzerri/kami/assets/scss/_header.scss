@@ -1,0 +1,77 @@
+.header {
+
+    & .logo-brand {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 88px;
+        color: $dark;
+    }
+
+    & .navbar-nav {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        width: 100%;
+
+        & .nav-links {
+            text-decoration: none;
+            width: 100%;
+            padding: 0 30px;
+            font-weight: bold;
+            line-height: 27px;
+            color: $dark;
+            &:hover {
+                color: $btn-color;
+                transition: 0.5s ease;
+            }
+        }
+        & .active {
+            color: $btn-color;
+        }
+    }
+
+    & .btn {
+        white-space: nowrap;
+        border-radius: 10px;
+        height: 40px;
+        background: $btn-color;
+        border: 0;
+        color: $white;
+
+        & .fa {
+            font-size: 20px;
+            padding-right: 10px;
+        }
+            &:hover {
+                background: $btn-active;
+                transition: 0.5s ease;
+                color: black;
+            }
+    }
+    & .btn-come {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        height: 40px;
+        width: 50px;
+        background: red;
+        border: 0;
+        color: $white;
+
+        & .fa {
+            font-size: 30px;
+            background: #000;
+        }
+
+        &:hover {
+            color: $link;
+            transition: 0.5s ease;
+            
+        }
+        &:active {
+            background: rgb(0, 255, 55);
+            color: $white;
+        }
+    }
+}
